@@ -1,0 +1,144 @@
+//META{"name":"Plata-Noir","description":"A theme based on Plata-Noir, a GTK theme for linux.","author":"marc0tjevp","version":"0.1"}*//{}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu|Ubuntu+Mono);
+
+* {
+  font-family: Ubuntu;
+  font-weight: 200
+}
+
+/* Header Bar */
+.container-PNkimc,
+.theme-dark .members-1998pB,
+.bda-dark .emoji-picker,
+.bda-dark .emojiPicker-3m1S-j,
+.theme-dark .title-3qD0b-,
+.theme-dark .headerBar-UHpsPw {
+  background: #080808;
+}
+
+/* Remove gradient in header */
+.theme-dark .children-19S4PO:after {
+  background: none;
+}
+
+/* New header activities, library etc */
+.theme-dark .container-1r6BKw {
+  background: #080808;
+}
+
+/* Header bar search field */
+.searchBar-6Kv8R2 {
+  background-color: #080808 !important;
+  padding: 0px;
+}
+
+.search-2oPWTC .searchBar-3dMhjb,.searchBar-2_Yu-C {
+  background-color: #1D1D1D !important;
+  background: #1D1D1D !important;
+  border-radius: 0px;
+}
+
+.searchBar-2_Yu-C input, .searchBarInner-1_Tg2R {
+  color: #fafafa !important;
+  background: #1D1D1D !important;
+  /* display: none !important; */
+}
+
+.searchBar-2_Yu-C .searchBarInner-1_Tg2R {
+  background: none;
+}
+
+/* Sidebar friends */
+.channels-Ie2l6A,
+.ui-tab-bar.SIDE .ui-tab-bar-item.selected,
+.ui-tab-bar.SIDE .ui-tab-bar-item:active,
+._3Mv0RaJ0,
+.ui-switch-checkbox:checked+.ui-switch,
+.chat .new-messages-bar,
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary,
+.ui-standard-sidebar-view #editor-detached button,
+.ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch,
+.buttonBrandFilled-3Mv0Ra,
+.bd-pfbtn,
+.ui-standard-sidebar-view #bd-customcss-attach-controls button,
+.bd-detached-css-editor #bd-customcss-attach-controls button,
+.user-popout .body,
+.form .form-inner,
+.modal-content,
+.scroller-2wx7Hm {
+  background: #111111;
+}
+
+/* Border next to searchfield fix */
+.channels-Ie2l6A {
+  width: 241px !important;
+  flex-shrink: 1;
+  -ms-flex-negative: 1;
+}
+
+.wrapper-1Rf91z {
+  background-color: #080808 !important;
+  border-radius: 0px !important;
+}
+
+/* Chat background */
+.theme-dark .messagesWrapper-3lZDfY {
+  background-color: #1D1D1D !important;
+}
+
+.messagesWrapper-3lZDfY .da-messagesWrapper {
+  background-color: #1D1D1D !important;
+}
+
+/* Chat input background */
+.theme-dark .chat-3bRxxu,
+.theme-dark .chat-3bRxxu form,
+.theme-dark .content-yTz4x3, .typing-2GQL18 {
+  background-color: #1D1D1D !important;
+}
+
+/* Friends background */
+.friendsTable-133bsv, .container-3gCOGc {
+  background-color: #1D1D1D !important;
+}
+
+/* Game Library background */
+.theme-dark .gameLibrary-TTDw4Y {
+  background-color: #1D1D1D !important;
+}
+
+.theme-dark .header-39GIC8 {
+  background: none;
+}
+
+/* Activity Feed background */
+.theme-dark .layout-1cQCv2 {
+  background-color: #1D1D1D !important;
+}
+
+/* Guilds bar background */
+.theme-dark .guildsWrapper-5TJh6A {
+  background-color: #222d32 !important;
+  border-right: 1px solid #1e282c !important;
+}
+
+/* Remove shadow top of guilds bar */
+.theme-dark .unreadMentionsBar-1VrBNe {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* Settings left side */
+.theme-dark .sidebarRegion-VFTUkN {
+  background-color: #1D1D1D !important;
+}
+
+/* Settings right side */
+.theme-dark .contentRegion-3nDuYy {
+  background-color: #1D1D1D !important;
+}
+
+/* Remove radius */
+.base-3dtUhz {
+  border-radius: 0px;
+}
